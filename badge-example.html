@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>Badge Example</title>
+</head>
+<body>
+  <style>
+    .badge {
+      float:left;
+      display:block;
+      width: 15px;
+      border-right:1px solid gray;
+      margin-right:5px;
+    }
+
+    .odd {
+      border:1px solid gray;
+      background-color: #aaa;
+    }
+
+    .even {
+      border:1px solid gray;
+    }
+
+    .flagged {
+      background-color: rgb(240, 173, 78);
+    }
+
+    .active {
+      background-color: rgb(71, 164, 71);
+    }
+
+    .inactive {
+      background-color: #888;
+    }
+
+    .stopped {
+      background-color: rgb(172, 41, 37);
+    }
+
+    .key {
+      display: inline-block;
+      margin: 5px;
+    }
+  </style>
+  <div style='width:100%'>
+    <div>
+      <div class="key">
+        <span class="badge flagged">&nbsp;</span>
+        <span>Flagged</span>
+      </div>
+      <div class="key">
+        <span class="badge active">&nbsp;</span>
+        <span>Active</span>
+      </div>
+      <div class="key">
+        <span class="badge inactive">&nbsp;</span>
+        <span>Inactive</span>
+      </div>
+      <div class="key">
+        <span class="badge stopped">&nbsp;</span>
+        <span>Stopped</span>
+      </div>
+    </div>
+  </div>
+  <div style='margin-top:25px'>
+    <div style='width:100%' class='odd'>
+      <span class='badge flagged'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+    <div style='clear:both;margin-bottom:5px;'></div>
+    
+     <div style='width:100%' class='even'>
+      <span class='badge active'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+    <div style='clear:both;margin-bottom:5px;'></div>
+      
+     <div style='width:100%' class='odd'>
+      <span class='badge flagged'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+     <div style='clear:both;margin-bottom:5px;'></div>
+      
+    <div style='width:100%' class='even'>
+      <span class='badge flagged'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+      <div style='clear:both;margin-bottom:5px;'></div>
+      
+    <div style='width:100%' class='odd'>
+      <span class='badge Inactive'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+       <div style='clear:both;margin-bottom:5px;'></div>
+      
+     <div style='width:100%' class='even'>
+      <span class='badge active'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+      <div style='clear:both;margin-bottom:5px;'></div>
+      
+    <div style='width:100%' class='odd'>
+      <span class='badge active'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+     <div style='clear:both;margin-bottom:5px;'></div>
+      
+    <div style='width:100%' class='even'>
+      <span class='badge stopped'>&nbsp;</span>
+      <span>User data.......</span>
+    </div>
+</div>
+</body>
+</html>
